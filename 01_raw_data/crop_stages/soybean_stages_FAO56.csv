@@ -1,0 +1,5 @@
+stage_id,crop,location,year,growth_stage,FAO56_stage_code,planting_date,stage_start_date,stage_end_date,duration_days,Kc_FAO56,description
+1,Soybean,Mississippi,2025,Initial,Ini,2025-05-01,2025-05-01,2025-05-20,20,0.40,Emergence to early vegetative growth
+2,Soybean,Mississippi,2025,Development,Dev,2025-05-01,2025-05-21,2025-06-29,40,0.78,Rapid canopy development V3 to R1
+3,Soybean,Mississippi,2025,Mid-Season,Mid,2025-05-01,2025-06-30,2025-08-27,58,1.15,Full canopy cover peak water demand
+4,Soybean,Mississippi,2025,Late-Season,Late,2025-05-01,2025-08-28,2025-10-05,38,0.50,Senescence and maturation
