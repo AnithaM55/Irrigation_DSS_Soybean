@@ -126,9 +126,15 @@ CREATE TABLE IF NOT EXISTS IrrigationOutput (
     FOREIGN KEY (season_id) REFERENCES GrowingSeason(season_id)
 );
 
--- Sample insert
+-- Sample insert — Mississippi 2025
 INSERT INTO Station VALUES
-    ('USC00083163','Gainesville FL',29.65,-82.33,'Florida','NOAA');
+    ('MS_33N89W','Starkville MS',33.8711,-89.0592,'Mississippi','NASA Power');
 
 INSERT INTO GrowingSeason VALUES
-    (1,'USC00083163',2023,'Soybean','2023-04-15','2023-10-10',NULL);
+    (1,'MS_33N89W',2025,'Soybean','2025-05-01','2025-10-05',NULL);
+
+INSERT INTO CropStage VALUES
+    (1,1,'Initial','2025-05-01','2025-05-20',0.40),
+    (2,1,'Development','2025-05-21','2025-06-29',0.78),
+    (3,1,'Mid-Season','2025-06-30','2025-08-27',1.15),
+    (4,1,'Late-Season','2025-08-28','2025-10-05',0.50);
