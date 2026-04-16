@@ -1,0 +1,21 @@
+field,value
+dataset_name,Soybean FAO-56 Crop Stages Mississippi 2025
+source,FAO Irrigation and Drainage Paper No 56 Table 11
+crop,Soybean Glycine max
+location,Starkville Mississippi USA
+latitude,33.8711
+longitude,-89.0592
+planting_date,2025-05-01
+harvest_date,2025-10-05
+total_season_days,157
+initial_stage_days,20
+development_stage_days,40
+mid_season_stage_days,58
+late_season_stage_days,39
+Kc_initial,0.40
+Kc_mid_season,1.15
+Kc_late_season,0.50
+reference,Allen et al 1998 FAO-56
+processed_by,AnithaM55
+date_created,2026-04-15
+notes,Planting window May 1-15 typical for Mississippi

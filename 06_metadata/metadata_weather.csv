@@ -1,0 +1,16 @@
+field,value
+dataset_name,NASA Power Daily Weather Mississippi 2025
+source,NASA POWER Agroclimatology Community
+latitude,33.8711
+longitude,-89.0592
+elevation_m,95.93
+temporal_coverage,2025-01-01 to 2025-12-31
+temporal_resolution,Daily
+variables,T2M_MAX T2M_MIN ALLSKY_SFC_SW_DWN WS2M PRECTOTCORR
+units,C C MJ/m2/day m/s mm/day
+missing_value,-999
+license,NASA Open Data public domain
+processed_by,AnithaM55
+download_date,2026-04-15
+ET0_method,FAO-56 Penman-Monteith
+notes,Used for FAO-56 ET0 computation Mississippi soybean 2025

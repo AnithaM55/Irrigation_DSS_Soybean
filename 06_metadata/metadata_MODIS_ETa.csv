@@ -1,0 +1,15 @@
+field,value
+dataset_name,MOD16A2GF Mississippi 2025
+source,NASA EarthData MODIS Land Team
+product,MOD16A2GF v061
+spatial_resolution,500 m
+temporal_resolution,8-day composites
+temporal_coverage,2025-03-30 to 2025-10-24
+band_used,ET_500m
+units,mm/8day converted to mm/day
+fill_value,32767
+license,NASA EarthData Terms of Use open with attribution
+processed_by,AnithaM55
+download_date,2026-04-14
+location,Starkville Mississippi lat=33.8711 lon=-89.0592
+notes,Gap-filled ET product statistics extracted for Mississippi 2025
